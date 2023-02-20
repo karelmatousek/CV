@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Karel's Project</title>
+  </head>
+  <body>
+    <table cellspacing="10">
+      <!-- stylistické fce se dělají v css-->
+      <tr>
+        <td>
+          <img
+            src="images/profile.png"
+            alt="Karel's profile picture"
+            style="width: 100px; height: 100px"
+          />
+        </td>
+        <td>
+          <h1>Karel Matoušek</h1>
+          <p>
+            Full stack <strong>developer</strong> student of
+            <a href="https://www.linkedin.com/in/angela-yu1/"
+              ><em>Angela Yu.</em></a
+            ><br />
+            Currently based in Brno. <br />
+            <a href="Contact me.html">Contact me here</a>
+          </p>
+          <br />
+        </td>
+      </tr>
+    </table>
+
+    <p>
+      I am happy to have the oportunity to study the course about full-stack
+      developement
+    </p>
+    <hr size="3" noshade="0" />
+    <h3>Education</h3>
+    <ul>
+      <!-- ul je znak, kterým se dělá seznam s tečkama-->
+      <li>
+        <a href="https://www.cmtf.upol.cz/"
+          >Bachelor studies at Palackého university at Olomouc</a
+        >
+      </li>
+      <li><a href="https://bigy.cz/">Biskupské Gymnázium, Brno</a></li>
+    </ul>
+    <hr />
+    <h3>Working oportunities:</h3>
+    <table>
+      <!-- vytvoří tabulku v prohlížeči-->
+      <thead>
+        <!-- nadpisy v tabulce (neměnný prvek) - dává se do thead, rozděluje se kvůli dalšímu formátování v CSS-->
+        <tr>
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- table row = řádky v tabulce-->
+          <td>2022-2023</td>
+          <!-- table data = jednotlivé buňky v rámci tabulky na určitém řádku-->
+          <td>
+            Coordinator of multicultural and language activities in the Center
+            for foreigners, z.u.
+          </td>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>Social worker on MuS (city district)</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+      <!--může být prvek na konci tabulky-->
+    </table>
+    <hr />
+    <h3>Hobbies & free time</h3>
+    <ol type="1">
+      <!-- ol he znak, kterým se dělá číslovaný/nebo jinak značený seznam // nemusí tam být type="1" - defalutně nastaveno na čísla, kdybych chtěl jinak označený seznam, použil bych type.-->
+      <li>Technology</li>
+      <li>Nature</li>
+      <li>Coding</li>
+    </ol>
+    <hr />
+    <h3>Skills</h3>
+    <table> <!-- zybtečně dlohý a složitý (2 tabulky, 1 je vložena do 2) - tak dopadá formátování v HTML-->
+      <tbody>
+        <tr>
+          <!-- Řada Start -->
+          <td>
+            <!-- 1st Buňka Start-->
+            <table cellspacing="10">
+              <!-- tabulka uvnitř 1st buňky (Start)-->
+              <tr>
+                <td>JavaScript</td>
+                <td>★★</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>★★</td>
+              </tr>
+            </table>
+            <!-- Table inside 1st Column (End)-->
+          </td>
+          <!-- 1st Column End -->
+          <td>
+            <!-- 2nd Column Start-->
+            <table cellspacing="10">
+              <!-- Table inside 2nd Column (Start)-->
+              <tr>
+                <td>CSS</td>
+                <td>★</td>
+              </tr>
+              <tr>
+                <td>Node</td>
+                <td>★</td>
+              </tr>
+            </table>
+            <!-- Table inside 2nd Column (End)-->
+          </td>
+          <!-- 2nd Column End-->
+        </tr>
+        <!-- Row End -->
+      </tbody>
+    </table>
+  </body>
+</html>
